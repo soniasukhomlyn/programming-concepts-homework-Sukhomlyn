@@ -46,7 +46,7 @@ for number in numbers:
 average = sum(positive) / len(positive) if positive else 0
 print("Середнє додатних чисел:", average)
 
-# 3.
+# 3
 X = int(input("Введіть X для фільтрації чисел у списку (менше за X): "))
 less_than_X = []
 for number in numbers:
@@ -85,7 +85,7 @@ for s in strings:
         prefixed.append(s.strip())
 print("Слова, що починаються з вказаного префікса:", prefixed)
 
-# 8.
+# 8
 N = int(input("Введіть число N: "))
 sum_N = 0
 for i in range(min(N, len(numbers))):
@@ -118,7 +118,7 @@ for number in numbers:
         filtered.append(number)
 print("Діляться на X, але не на Y:", filtered)
 
-# 2.
+# 2
 nested_input = input("Введіть декілька списків чисел через крапку з комою (;), а самі числа через кому (,)\nНаприклад: 1,2;3,4;5\n> ")
 raw_sublists = nested_input.split(";")
 nested_lists = []
